@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Oswald&display=swap');
 
 
-
+body{
+    background-color: #606C38;
+}
 header {
-    background-color: #006eb6;
+    background-color: #283618;
     display: grid;
     grid-template-columns: 1fr 1fr
 }
@@ -17,14 +19,14 @@ img{
 
 h1{
     align-self: center;
-    color: white;
-    font-family: oswald;
+    color: #FEFAE0;;
+    font-family: Oswald;
 }
 
 nav{
     display: grid;
-    background-color:#000;
-    color: white;
+    background-color:#DDA15E;
+    color: #FEFAE0;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: auto auto 1fr auto;
     align-items: center;
@@ -38,7 +40,7 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: #283618;
     text-decoration: none;
     font-size: 200%;
     font-family: "Cormorant Garamond";
@@ -55,22 +57,38 @@ main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,100px);
-    background-image: linear-gradient(to bottom, #006eb6 30%, transparent 30%);
+    background-image: linear-gradient(to bottom, #283618 30%, transparent 30%),linear-gradient(to top, #FEFAE0 60%, transparent 600%);
     color: white;
     font-size: x-large;
     border: groove #000;
+    border-radius: 10px;
     margin: 50px;
+}
+.card p{
+    color: #283618;
 }
 
 h3{
     grid-column: 2;
     align-self: end;
+    font-family: Oswald;
 
 }
-
+h2{
+    text-decoration-line: underline;
+    color: #FEFAE0;
+    font-family: Oswald;
+}
 ul{
     grid-column: 1;
     text-align: initial;
+    list-style-type: none;
+}
+
+.card a{
+    color: #283618;
+    text-decoration: none;
+    font-family: "Cormorant Garamond";
 }
 
 .placeholders{
@@ -81,8 +99,17 @@ ul{
 }
 
 footer{
-    background-color: #006eb6;
-    color: white;
+    background-color: #DDA15E;
+    color: #283618;
     text-align: center;
     font-family: oswald;
 }
+footer p {
+    margin: 0; 
+}
+
+footer img {
+    vertical-align: middle; 
+    padding: 5px;
+}
+
