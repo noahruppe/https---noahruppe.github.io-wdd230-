@@ -1,4 +1,4 @@
-@media screen and (max-width:1600px){
+@media screen and (max-width:1400px){
     .link{
         display: grid;
         grid-template-columns: repeat(5,1fr);
