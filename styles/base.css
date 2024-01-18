@@ -31,7 +31,8 @@ nav{
 
 .link{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     text-decoration: none;
 }
@@ -44,7 +45,9 @@ nav a{
 }
 
 main{
-    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
     font-family: "Cormorant Garamond";
@@ -76,6 +79,7 @@ h2{
     text-decoration-line: underline;
     color: #FEFAE0;
     font-family: Oswald;
+    grid-column: 1/3;
 }
 ul{
     grid-column: 1/3;
