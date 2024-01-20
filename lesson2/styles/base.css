@@ -1,139 +1,59 @@
-html,body{
-    
-    height: 100%;
-    text-align: -webkit-center;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
 header{
     background-color: darkblue;
     color: white;
     text-align: center;
-    font-size: 40px;
 }
 header p{
-    font-size: 55px;
+    font-size: 30px;
 }
-main{
-    max-width: 2500px;
+#cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(4,1fr);
+    min-block-size: 100vb;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,auto);
     column-gap: 30px;
-    justify-items: center;
-    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 30px;
 }
 .card{
     border: groove #000;
-    grid-column: 1/2;
-    grid-row: 1/6;
-    width: -webkit-fill-available;
-    max-width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/13;
+    background-color: lightgrey;
+    font-size: 25px;
 }
-.card h2{
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    margin: initial;
-    font-size: 70px;
-}
-.card h3{
-    font-size: 70px;
-    text-align: left;
-    margin: auto;
-    grid-row: 2;
-}
-.card a{
-    font-size: 55px;
-    text-align: left;
-    display: flex;
-}
-.card img{
-    height: 40%;
-    width: 100%;
-}
-.card p{
-    font-size: 40px;
-}
-
-/*card two begins*/
-
 .card2{
     border: groove #000;
-    grid-column: 2/3;
-    grid-row: 1/6;
-    width: -webkit-fill-available;
+    grid-column: 5/9;
+    grid-row: 1/13;
+    background-color: lightgrey;
+    font-size: 25px;
 }
-.card2 h2{
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    margin: initial;
-    font-size: 70px;
-}
-.card2 h3{
-    font-size: 70px;
-    text-align: left;
-    margin: auto;
-    grid-row: 2;
-}
-.card2 a{
-    font-size: 55px;
-    text-align: left;
-    display: flex;
-}
-.card2 img{
-    height: 40%;
-    width: 100%;
-}
-.card2 p{
-    font-size: 40px;
-}
-
-/*card3 starts here*/
-
 .card3{
     border: groove #000;
-    grid-column: 3/4;
-    grid-row: 1/6;
-    width: -webkit-fill-available;
+    grid-column: 9/13;
+    grid-row: 1/13;
+    background-color: lightgrey;
+    font-size: 28px;
 }
-.card3 h2{
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    margin: initial;
-    font-size: 70px;
-}
-.card3 h3{
-    font-size: 70px;
-    text-align: left;
-    margin: auto;
-    grid-row: 2;
-}
-.card3 a{
-    font-size: 55px;
-    text-align: left;
-    display: flex;
-}
-.card3 img{
-    height: 40%;
+.card img,.card2 img,.card3 img{
     width: 100%;
 }
-.card3 p{
-    font-size: 49px;
+.card h2,.card2 h2,.card3 h2{
+    background-color: darkblue;
+    color: white;
+    margin: auto;
 }
 footer{
     background-color: darkblue;
     color: white;
-    font-size: 40px;
-    
-}
-footer p {
-    margin: 0; 
+    text-align: center;
 }
 
-footer img {
-    vertical-align: middle; 
-    padding: 5px;
+header,header p,.card,.card2,.card3,footer{
+    font-family: "Libre Baskerville";
 }
