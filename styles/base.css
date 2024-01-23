@@ -124,4 +124,8 @@ li::before{
     margin-right: 0.5em; 
     color: black;
 }
-
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
