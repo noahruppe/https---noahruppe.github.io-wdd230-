@@ -11,5 +11,35 @@
         margin: auto;
         text-align: center;
     }
+    #menu{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: .5rem .7rem;
+        background-color: #DDA15E;
+        color: black;
+    }
+    #menu::before{
+        content: "≡";
+    }
+    nav a{
+        background-color: #283618;
+        color: #FEFAE0;
+    }
+    nav a:hover{
+        background-color: #FEFAE0;
+        color: black;
+    }
+    
+    .link a{
+        display: none;
+    }
+    .show a{
+        display: block;
+    }
+    #menu.show::before{
+        content: "Ⅹ";
+    }
 
 }
