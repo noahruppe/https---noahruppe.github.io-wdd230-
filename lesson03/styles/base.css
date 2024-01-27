@@ -109,4 +109,15 @@ main h1{
     border: 10px solid #660708;
     text-align: center;
     margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,auto);
+}
+.webframe h1{
+    grid-column: 6;
+}
+.webframe img{
+    grid-column: 3/10;
+    grid-row: 2;
+    width: 100%;
 }
