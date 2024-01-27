@@ -20,7 +20,7 @@ header p{
     padding-bottom: 30px;
 }
 .card{
-    border: groove #000;
+    border: solid #000;
     grid-column: 1/5;
     grid-row: 1/13;
     background-color: lightgrey;

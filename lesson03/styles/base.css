@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&display=swap');
+body{
+    background-color: #F5F3F4;
+}
+header{
+    background-color: #660708;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Bebas Neue';
+}
+main h1{
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+.purpose{
+    border:  10px solid #660708 ;
+    border-width: 10px;
+   text-align: center;
+   margin: 30px;
+}
+.purpose p{
+    font-family: 'EB Garamond';
+    font-size: larger;
+}
+.scenerios{
+    border: 10px solid #660708;
+    margin: 30px;
+    text-align: center;
+    font-size: larger;
+}
+.color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(11,auto);
+    border: 10px solid #660708;
+    margin: 30px;
+    text-align: center;
+}
+.color h1{
+    margin: 0px;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+.p1{
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid #660708;
+    background-color: #F5F3F4;
+}
+.p2{
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid #660708;
+    background-color: #660708;
+    color: white;
+}
+.p3{
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px solid #660708;
+    background-color: #000;
+    color: white;
+}
+.p4{
+    grid-column: 4;
+    grid-row: 2;
+    border: 1px solid #660708;
+    background-color: #D3D3D3;
+    color: #000;
+}
+.p5{
+    grid-column: 1;
+    grid-row: 3;
+}
+.p6{
+    grid-column: 1;
+    grid-row: 4;
+}
+.p7{
+    grid-column: 1;
+    grid-row: 5;
+}
+.p8{
+    grid-column: 1;
+    grid-row: 6;
+}
+.p9{
+    grid-column: 1;
+    grid-row: 7;
+}
+.p10{
+    grid-column: 1;
+    grid-row: 8;
+}
+.type{
+    border: 10px solid #660708 ;
+    text-align: center;
+    margin: 30px;
+}
+.p11{
+    font-family: 'Bebas Neue';
+}
+.p12{
+    font-family: 'EB Garamond';
+}
+.webframe{
+    border: 10px solid #660708;
+    text-align: center;
+    margin: 30px;
+}
