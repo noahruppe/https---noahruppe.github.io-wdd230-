@@ -10,7 +10,7 @@ header{
     padding-right: 40px;
 }
 header img{
-max-width: 150px;
+max-width: 100px;
 }
 header h1{
     padding-left: 10px;
@@ -24,10 +24,25 @@ header a{
     text-decoration: none;
     margin-left: 80px;
     padding: 20px;
-    font-size: larger;
+    font-size: auto;
     border: 0px solid;
     border-radius: 10px;
 }
 header a:hover{
     background-color: #000;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,auto);
+}
+main img{
+    grid-column: 1/13;
+    grid-row: 1;
+    width: 100%;
+    
+}
+.cards{
+    grid-column: 1/6;
+    grid-row: 2/3;
 }
