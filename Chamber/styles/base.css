@@ -56,7 +56,7 @@ main img{
     grid-template-rows: 80px 1fr 1fr;
 }
 
-.cards h1{
+.cards h2{
     text-align: center;
     background-color: #660708;
     color: #D3D3D3;
@@ -73,7 +73,7 @@ main img{
     grid-template-rows: 80px 1fr 1fr;
     background-color: #D3D3D3;
 }
-.card1 h1{
+.card1 h2{
     text-align: center;
     background-color: #660708;
     color: #D3D3D3;;
@@ -90,7 +90,7 @@ main img{
     grid-template-rows: 80px auto auto;
     background-color: #D3D3D3;
 }
-.signs h1{
+.signs h2{
     background-color: #660708;
     color: #D3D3D3;
     margin: 0px;
@@ -114,7 +114,7 @@ main img{
     grid-template-rows: 80px auto auto;
     background-color: #D3D3D3;
 }
-.roofing h1{
+.roofing h2{
     background-color: #660708;
     color: #D3D3D3;
     margin: 0px;
@@ -138,7 +138,7 @@ main img{
     grid-template-rows: 80px auto auto;
     background-color: #D3D3D3;
 }
-.land h1{
+.land h2{
     background-color: #660708;
     color: #D3D3D3;
     margin: 0px;
