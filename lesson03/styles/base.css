@@ -121,3 +121,19 @@ main h1{
     grid-row: 2;
     width: 100%;
 }
+.wireframe{
+    border: 10px solid #660708;
+    text-align: center;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,auto);
+}
+.wireframe h1{
+    grid-column: 6;
+}
+.wireframe img{
+    grid-column: 3/10;
+    grid-row: 2;
+    width: 100%;
+}
