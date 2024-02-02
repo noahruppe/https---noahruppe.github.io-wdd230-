@@ -46,3 +46,78 @@
         grid-row: 5;
     }
 }
+@media only screen and (min-width:200px) and (max-width:641px){
+    header{
+        display: grid;
+        grid-template-rows: repeat(3,auto);
+        justify-items: center;
+    }
+    header img{
+        grid-row: 1;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    header a{
+        padding:5px;
+        margin: 0px;
+        text-align: center;
+    }
+    main{
+        grid-template-rows: 1fr 80px 1fr 1fr 1fr 1fr 1fr 1fr 5px;
+    }
+    main img{
+        height: 100%;
+    }
+    .cards{
+        grid-column: 1/13;
+    }
+    .card1{
+        grid-column: 1/13;
+        grid-row: 4/6;
+    }
+    .signs{
+        grid-column: 1/13;
+        grid-row: 6;
+    }
+    .roofing{
+        grid-column: 1/13;
+        grid-row: 7;
+    }
+    .land{
+        grid-column: 1/13;
+        grid-row: 8;
+    }
+    #menu{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: .5rem .7rem;
+        background-color: #D3D3D3;
+        color: #000;
+    }
+    #menu::before{
+        content: "≡";
+    }
+    nav a{
+        background-color: #000;
+        color: #D3D3D3;
+    }
+    nav a:hover{
+        background-color: #D3D3D3;
+        color: black;
+    }
+    
+    .link a{
+        display: none;
+    }
+    .show a{
+        display: block;
+    }
+    #menu.show::before{
+        content: "Ⅹ";
+    }
+}
