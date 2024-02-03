@@ -53,6 +53,7 @@ main img{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 80px 1fr 1fr;
+    text-align: center;
 }
 
 .cards h2{
@@ -72,6 +73,7 @@ main img{
     grid-template-columns: 1fr;
     grid-template-rows: 80px 1fr 1fr;
     background-color: #D3D3D3;
+    text-align: center;
 }
 .card1 h2{
     text-align: center;
