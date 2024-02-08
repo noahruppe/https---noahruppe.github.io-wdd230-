@@ -28,25 +28,35 @@ let cirlce = document.querySelector(".circle");
 
 let checkbox = document.getElementById("checkbox");
 
-let body = document.querySelector("body");
-let header = document.querySelector("header")
-let header_a = document.querySelector("header a")
+let body = document.querySelector('body');
+let header = document.querySelector('header');
+let headerLinks = document.querySelectorAll('header a')
+let cards = document.querySelector('.cards');
+let cards_h2 = document.querySelector('.cards h2');
+let card1 = document.querySelector('.card1');
+
+
+
+
 
 toggle_box.onclick = () =>{
+
     if(checkbox.checked){
         cirlce.style.left = "40px";
-        body.style.backgroundColor = "#000";
-        body.style.color = "#fff";
-        header.style.backgroundColor = "#000";
-        header.style.color = "#fff";
-        header_a.style.color = "#fff";
-
+        cirlce.style.backgroundColor = "#000";
+        toggle_box.style.backgroundColor = "#fff";
+        body.classList.toggle('dark-mode');
+        header.classList.toggle('dark-mode');
+        headerLinks.forEach(link => link.classList.toggle("dark-mode"));
+        cards.classList.toggle('dark-mode');
+        cards_h2.classList.toggle('dark-mode');
+        card1.classList.toggle('dark-mode');
+    
     }
     else{
         cirlce.style.left = "0px";
-        body.style.backgroundColor = "#F5F3F4";
-        header.style.backgroundColor = "#660708";
-        header.style.color = "#D3D3D3";
-        header_a.style.color = "#D3D3D3";
+        cirlce.style.backgroundColor = "#fff";
+        toggle_box.style.backgroundColor = "#000"
+
     }
 }
