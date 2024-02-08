@@ -9,7 +9,6 @@ button.addEventListener('click', () => {
 
         li.textContent = input.value;
         deleteButton.textContent = '❌';
-        deleteButton.style.marginLeft = '30px';
         li.appendChild(deleteButton);
         list.appendChild(li);
 
