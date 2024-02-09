@@ -208,10 +208,6 @@ input[type="checkbox"]{
     color: #fff;
 }
 
-.dark-mode header a:hover {
-    background-color: #fff;
-    color: #000;
-}
 
 .dark-mode .cards,
 .dark-mode .card1,
