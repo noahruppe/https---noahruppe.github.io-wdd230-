@@ -58,17 +58,22 @@
 @media only screen and (min-width:200px) and (max-width:641px){
     header{
         display: grid;
-        grid-template-rows: repeat(3,auto);
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(4,auto);
         justify-items: center;
     }
     header img{
+        grid-column: 12;
         grid-row: 1;
         display: flex;
     }
     header h1{
+        grid-column: 12;
         grid-row: 2;
     }
     header nav{
+        grid-column: 12;
+        grid-row: 4;
         margin: 0px;
         width: 100%;
     }
@@ -104,6 +109,7 @@
         grid-row: 8;
     }
     #menu{
+        grid-column: 12;
         grid-row: 3;
         display: block;
         font-size: 2rem;
@@ -135,6 +141,7 @@
         content: "Ⅹ";
     }
     .background-box{
+        grid-column: 13;
         grid-row: 1;
         display: flex;
         justify-content: end;
