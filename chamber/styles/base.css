@@ -223,7 +223,7 @@ input[type="checkbox"]{
 .dark-mode .signs h2,
 .dark-mode .land h2,
 .dark-mode .roofing h2 {
-    background-color: #000;
+    background-color: #660708;
     color: #fff;
     text-decoration: underline 2px solid #fff;
 }
