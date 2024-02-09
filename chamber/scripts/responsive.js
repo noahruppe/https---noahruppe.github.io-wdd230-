@@ -29,8 +29,8 @@ let cirlce = document.querySelector(".circle");
 let checkbox = document.getElementById("checkbox");
 
 let body = document.querySelector('body');
-let header = document.querySelector('header');
-let headerLinks = document.querySelectorAll('header a')
+// let header = document.querySelector('header');
+// let headerLinks = document.querySelectorAll('header a')
 let cards = document.querySelector('.cards');
 let cards_h2 = document.querySelector('.cards h2');
 let card1 = document.querySelector('.card1');
@@ -47,8 +47,8 @@ toggle_box.onclick = () =>{
         cirlce.style.backgroundColor = "#000";
         toggle_box.style.backgroundColor = "#fff";
         body.classList.toggle('dark-mode');
-        header.classList.toggle('dark-mode');
-        headerLinks.forEach(link => link.classList.toggle("dark-mode"));
+        // header.classList.toggle('dark-mode');
+        // headerLinks.forEach(link => link.classList.toggle("dark-mode"));
         cards.classList.toggle('dark-mode');
         cards_h2.classList.toggle('dark-mode');
         card1.classList.toggle('dark-mode');

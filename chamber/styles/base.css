@@ -217,8 +217,7 @@ input[type="checkbox"]{
 .dark-mode .card1,
 .dark-mode .signs,
 .dark-mode .land,
-.dark-mode .roofing,
-.dark-mode footer {
+.dark-mode .roofing{
     border: 3px solid #fff;
     background-color: #000;
 }
@@ -240,8 +239,4 @@ input[type="checkbox"]{
 }
 .dark-mode .signs{
     background-color: #000;
-}
-.dark-mode footer{
-    background-color: #000;
-    color: #fff;
 }
