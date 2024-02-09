@@ -57,22 +57,19 @@
 }
 @media only screen and (min-width:200px) and (max-width:641px){
     header{
-        display: grid;
-        grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(4,auto);
-        justify-items: center;
+       display: flex;
+       flex-direction: column;
     }
     header img{
-        grid-column: 12;
-        grid-row: 1;
-        display: flex;
+        justify-self: center;
     }
     header h1{
-        grid-column: 12;
+        grid-column: 7;
         grid-row: 2;
+        text-align: center;
     }
     header nav{
-        grid-column: 12;
+        grid-column: 7;
         grid-row: 4;
         margin: 0px;
         width: 100%;
@@ -109,7 +106,7 @@
         grid-row: 8;
     }
     #menu{
-        grid-column: 12;
+        grid-column: 7;
         grid-row: 3;
         display: block;
         font-size: 2rem;
@@ -141,10 +138,8 @@
         content: "Ⅹ";
     }
     .background-box{
-        grid-column: 13;
-        grid-row: 1;
-        display: flex;
-        justify-content: end;
-        margin-right: inherit;
+       position: absolute;
+       margin: 0px;
+       right: 0;
      }
 } 
