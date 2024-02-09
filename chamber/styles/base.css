@@ -203,72 +203,45 @@ input[type="checkbox"]{
     transition: 0.5s;
 }
 
-.dark-mode{
+.dark-mode {
     background-color: #000;
     color: #fff;
-    header a:hover{
-        background-color: #fff;
-        color: #000;
-    }
-    .cards{
-        border: 3px solid #fff;
-    }
-    .card1{
-        border: 3px solid #fff;
-    }
-    .cards h2{
-        background-color: #000;
-        color: #fff;
-        text-decoration: underline 2px solid #fff;
-    }
-    .card1 h2{
-        background-color: #000;
-        color: #fff;
-        text-decoration: underline 2px solid #fff;
-    }
-    .signs{
-        background-color: #000;
-        color: #fff;
-        border: 3px solid #fff;
-        
-    }
-    .signs h2{
-        background-color: #000;
-        color: #fff;
-        text-decoration: underline 2px solid #fff;
-    }
-    .signs p{
-        color: #fff;
-    }
-    .land{
-        background-color: #000;
-        color: #fff;
-        border: 3px solid #fff;
-    }
-    .land h2{
-        background-color: #000;
-        color: #fff;
-        text-decoration: underline 2px solid #fff;
-    }
-    .land p{
-        color: #fff;
-    }
-    .roofing{
-        background-color: #000;
-        color: #fff;
-        border: 3px solid #fff;
-    }
-    .roofing h2{
-        background-color: #000;
-        color: #fff;
-        text-decoration: underline 2px solid #fff;
-    }
-    .roofing p{
-        color: #fff;
-    }
-    footer{
-        background-color: #000;
-        color: #fff;
-        border: 3px solid #fff;
-    }
+}
+
+.dark-mode header a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode .cards,
+.dark-mode .card1,
+.dark-mode .signs,
+.dark-mode .land,
+.dark-mode .roofing,
+.dark-mode footer {
+    border: 3px solid #fff;
+    background-color: #000;
+}
+
+.dark-mode .cards h2,
+.dark-mode .card1 h2,
+.dark-mode .signs h2,
+.dark-mode .land h2,
+.dark-mode .roofing h2 {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline 2px solid #fff;
+}
+
+.dark-mode .signs p,
+.dark-mode .land p,
+.dark-mode .roofing p {
+    color: #fff;
+}
+.dark-mode .signs{
+    background-color: #000;
+}
+.dark-mode footer{
+    background-color: #000;
+    color: #fff;
 }

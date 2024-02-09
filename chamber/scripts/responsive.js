@@ -34,7 +34,8 @@ let headerLinks = document.querySelectorAll('header a')
 let cards = document.querySelector('.cards');
 let cards_h2 = document.querySelector('.cards h2');
 let card1 = document.querySelector('.card1');
-
+let land = document.querySelector('.land');
+roofing = document.querySelector('roofing');
 
 
 
@@ -51,6 +52,8 @@ toggle_box.onclick = () =>{
         cards.classList.toggle('dark-mode');
         cards_h2.classList.toggle('dark-mode');
         card1.classList.toggle('dark-mode');
+        land.classList.toggle('dark-mode');
+        roofing.classList.toggle('dark-mode');
     
     }
     else{
