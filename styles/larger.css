@@ -51,6 +51,9 @@
     .temples{
         max-height: 300px;
     }
+    .overlay{
+        font-size: larger;
+    }
 }
 @media only screen and (min-width:100px) and (max-width: 600px){
     .temples{

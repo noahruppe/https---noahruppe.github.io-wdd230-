@@ -164,7 +164,7 @@ li::before{
 }
 .overlay{
     position: absolute;
-    font-size: larger;
+    font-size: x-large;
     color: #fff;
     margin-bottom: initial;
 }
