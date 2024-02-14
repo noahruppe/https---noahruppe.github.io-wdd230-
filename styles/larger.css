@@ -11,6 +11,9 @@
         margin: auto;
         text-align: center;
     }
+    .temple{
+        width: 100%;
+    }
     #menu{
         display: block;
         font-size: 2rem;
@@ -42,4 +45,15 @@
         content: "Ⅹ";
     }
 
+}
+
+@media only screen and (max-width: 960px){
+    .temples{
+        max-height: 300px;
+    }
+}
+@media only screen and (min-width:100px) and (max-width: 600px){
+    .temples{
+        max-height: 150px;
+    }
 }

@@ -10,7 +10,7 @@ header {
     grid-template-columns: 1fr 1fr
 }
 
-img{
+.there{
     justify-self: end;
     padding: 2rem;
     width: 80px;
@@ -47,24 +47,54 @@ nav a{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+    grid-template-rows: repeat(3,auto);
+    column-gap: 100px;
+    max-width: 100%;
     margin: auto;
     text-align: center;
     font-family: "Cormorant Garamond";
 }
-
+.temple{
+    grid-column: 1/3;
+    width: 100%;
+}
+.temples{
+    width: 100%;
+}
 .card{
     display: grid;
+    max-width: 350px;
+    grid-row: 3;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px auto auto;
     color: white;
     font-size: x-large;
     border: groove #000;
     border-radius: 10px;
-    margin: 50px;
+    margin-left: auto;
 }
 
 .card p{
+    color: #283618;
+    grid-column: 1/4;
+    background-color: #FEFAE0;
+    margin: initial;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cards{
+    display: grid;
+    max-width: 350px;
+    grid-row: 3;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px auto auto;
+    color: white;
+    font-size: x-large;
+    border: groove #000;
+    border-radius: 10px;
+}
+
+.cards p{
     color: #283618;
     grid-column: 1/4;
     background-color: #FEFAE0;
@@ -131,4 +161,10 @@ li::before{
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+.overlay{
+    position: absolute;
+    font-size: larger;
+    color: #fff;
+    margin-bottom: initial;
 }

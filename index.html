@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <img src="images/try.jpg" alt="picture of Noah Ruppe">
+        <img class="there" src="images/try.webp" alt="picture of Noah Ruppe">
         <h1>Noah Nathaniel Ruppe</h1>
     </header>
     <span id="menu"></span>
@@ -35,6 +35,14 @@
         </div>
     </nav>
     <main>
+        <div class="overlay">
+            Manila Temple
+        </div>
+        <picture class="temple">
+            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+            <img class="temples" src="images/hero-large.webp" alt="manila temple" height="500">
+        </picture>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -46,9 +54,11 @@
                 <li><a href="https://codepen.io/Noah-Ruppe/pen/Yzgxqev">Responsive "Hamburger" Menu</a></li>
                 <li><a href="https://codepen.io/blazzard-jason/pen/PoaQgXJ">CSS Pseudo-Classes</a></li>
                 <li><a href="lesson05/bom.html">BOM List</a></li>
+                <li><a href="lesson03/images/landscape.webp">WebP</a></li>
+                <li><a href="lesson06/responsive-images.html">Responsive images</a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="cards">
             <h3>Information</h3>
             <p>sunshine</p>
             <p>page visits</p>
@@ -60,7 +70,7 @@
     <footer>
         &copy; <span id = "currentYear"></span>
         <p>Noah Ruppe</p>
-        <p>North Carolina <img src="images/flag-28577_640.png" alt="North Carolina Flag"></p>
+        <p>North Carolina <img class="there" src="images/flag-28577_640.webp" alt="North Carolina Flag"></p>
         Last Modified: <span id = "lastModified"></span>
     </footer>
 
