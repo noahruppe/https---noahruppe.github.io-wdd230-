@@ -39,11 +39,13 @@ main{
     grid-template-rows: 1fr 80px 1fr 1fr 20px;
     grid-gap: 30px;
 }
-main img{
+.lengths{               /*later will be changeing image back to the origial image this is where the original image was and everything inside is how it was too. */
     grid-column: 1/13;
     grid-row: 1;
     width: 100%;
-    
+}
+main img{
+    width: 100%;
 }
 .cards{
     background-color: #D3D3D3;
@@ -235,4 +237,11 @@ input[type="checkbox"]{
 }
 .dark-mode .signs{
     background-color: #000;
+}
+
+.s-overlay{
+    position: absolute;
+}
+.m-overlay{
+    position: absolute;
 }

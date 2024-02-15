@@ -37,14 +37,18 @@
         </div>
     </header>
     <main>
-        <img src="images/MicrosoftTeams-image.png" alt="">
+        <picture class="lengths">
+            <source srcset="images/small.webp" media="(max-width: 500px)">
+            <source srcset="images/medium.webp" media="(max-width:1000px)">
+            <img src="images/large.webp" alt="hero image">
+        </picture>
         <section class="cards">
             <h2>Current Events</h2>
             <p>local food court holding business meeting</p>
         </section>
         <section class="card1">
             <h2>Weather</h2>
-            <p>weather is sunny</p>
+            <div id="weather-info"></div>
         </section>
         <section class="signs">
         <h2>Creative Sign Solutions</h2>
@@ -76,5 +80,6 @@
         Last Modified: <span id = "lastModified"></span>
     </footer>
     <script src="scripts/responsive.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
