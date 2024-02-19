@@ -64,7 +64,7 @@ main{
 }
 .card{
     display: grid;
-    max-width: 350px;
+    max-width: 400px;
     grid-row: 3;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px auto auto;
@@ -85,7 +85,7 @@ main{
 }
 .cards{
     display: grid;
-    max-width: 350px;
+    max-width: 400px;
     grid-row: 3;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px auto auto;
@@ -132,7 +132,10 @@ ul{
 li{
     padding-top: 30px;
 }
-
+li:hover{
+    text-decoration: underline;
+    color: rgb(11, 11, 176);
+}
 .card a{
     color: #283618;
     text-decoration: none;
