@@ -74,7 +74,10 @@ main{
     border-radius: 10px;
     margin-left: auto;
 }
-
+.visits{
+    background-color: #FEFAE0;
+    grid-column: 1/4;
+}
 .card p{
     color: #283618;
     grid-column: 1/4;
