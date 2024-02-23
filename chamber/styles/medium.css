@@ -224,10 +224,6 @@
         position: relative;
         display: contents;
      }
-     .discover-main{
-        display: grid;
-        grid-template-columns: 1;
-     }
      .visits{
         padding: 25px;
      }
