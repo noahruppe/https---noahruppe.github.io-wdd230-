@@ -222,7 +222,6 @@
      }
      .display{
         position: relative;
-        top: none;
         display: contents;
      }
      .discover-main{
