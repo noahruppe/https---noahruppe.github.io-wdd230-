@@ -263,7 +263,7 @@ input[type="checkbox"]{
     background-color: #660708;
     position: relative;
 }
-.sidebar h1{
+.old{
     font-size: xx-large;
     color: #D3D3D3;
     text-align: center;
@@ -342,14 +342,15 @@ input[type="checkbox"]{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(23,auto);
 }
-.main-photos h1{
+.theold{
     grid-row: 1;
+    font-size: xx-large;
     text-align: center;
     margin: 0px;
     background-color: #660708;
     color: #D3D3D3;
 }
-.main-photos h2{
+.theolds{
     grid-row: 5;
     text-align: center;
     margin: 0px;
