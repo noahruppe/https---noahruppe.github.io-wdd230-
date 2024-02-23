@@ -54,6 +54,75 @@
        justify-content: end;
        margin-right: inherit;
     }
+    .main-photos{
+    grid-column: 5/12;
+    grid-row: 1/6;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(23,auto);
+    }
+    .main-photos h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .main-photos h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .main-photos h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .main-photos h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .main-photos h5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .main-photos h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .c1{
+        font-size: larger;
+    }
+    .f1{
+        font-size: larger;
+    }
+    .g1{
+        font-size: larger;
+    }
+    .pa1{
+        font-size: larger;
+    }
+    .b1{
+        font-size: larger;
+    }
+    .d1{
+        font-size: larger;
+    }
+    .civic img:hover{
+        border-radius: 0px 0px;
+    }
+    .sidebar h1{
+        font-size: x-large;
+    }
+
 }
 @media only screen and (min-width:200px) and (max-width:641px){
     header{

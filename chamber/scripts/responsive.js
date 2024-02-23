@@ -63,3 +63,47 @@ toggle_box.onclick = () =>{
 
     }
 }
+
+// calandar
+
+let month = document.querySelector('.month');
+let day = document.querySelector('.day');
+let date = document.querySelector('.date');
+let year = document.querySelector('.year');
+
+let currentDate = new Date();
+
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+month.innerHTML = months[currentDate.getMonth()];
+
+day.innerHTML = days[currentDate.getDay()];
+
+date.innerHTML = currentDate.getDate();
+
+year.innerHTML = currentDate.getFullYear();
+
+
+// page visits
+
+const visitsDisplay = document.querySelector('.visits')
+let lastVisit = new Date(window.localStorage.getItem('lastVisit-ls'));
+
+window.localStorage.setItem('lastVisit-ls', currentDate);
+
+let timeDifference = currentDate - lastVisit;
+
+let daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
+
+if (daysDifference < 1) {
+    visitsDisplay.textContent = "Back so soon! Awesome!";
+} else {
+    let dayString = daysDifference === 1 ? "day" : "days";
+    visitsDisplay.textContent = `You last visited ${daysDifference} ${dayString} ago.`;
+}
+
+let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
+numVisits++; // Increment the number of visits
+window.localStorage.setItem('numVisits-ls', numVisits);

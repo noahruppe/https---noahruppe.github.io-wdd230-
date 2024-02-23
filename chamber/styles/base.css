@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&display=swap');
 body{
     background-color: #F5F3F4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header{
     background-color: #660708;
@@ -172,6 +175,7 @@ footer{
     text-align: center;
     font-size: x-large;
     font-family: 'EB Garamond';
+    margin-top: auto;
 }
 .background-box{
     margin-left: 110px;
@@ -244,4 +248,238 @@ input[type="checkbox"]{
 }
 .m-overlay{
     position: absolute;
+}
+
+
+
+/*this is the discover page*/
+.sidebar{
+    grid-column: 1/4;
+    grid-row: 1/6;
+    border: 3px solid #660708 ;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: #660708;
+    position: relative;
+}
+.sidebar h1{
+    font-size: xx-large;
+    color: #D3D3D3;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: 10px solid black;
+}
+.statesville-pic{
+    width: 50%;
+    margin-top: 20px;
+    align-self: center;
+}
+.chamber1{
+    width: 100%;
+}
+.sidebar p{
+    font-size: x-large;
+    color: #D3D3D3;
+    text-align: center;
+}
+.sidebar h2{
+    color: #D3D3D3;
+    text-align: center;
+}
+.container1{
+    margin-top: 50px;
+    position: sticky;
+    top: 5px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0%;
+}
+.month{
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: xx-large;
+}
+.day{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;  
+    font-size: x-large; 
+}
+.date{
+    color: #000;
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.year{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+.display{
+    border-top: 3px solid white;
+    margin-top: 30px;
+    position: sticky;
+    top: 300px;
+}
+.visits{
+    color: #fff;
+    font-size: xx-large;
+}
+.main-photos{
+    grid-column: 5/12;
+    grid-row: 1/6;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(23,auto);
+}
+.main-photos h1{
+    grid-row: 1;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.main-photos h2{
+    grid-row: 5;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.main-photos img{
+    width: 100%;
+    height: 100%;
+}
+.main-photos h3{
+    grid-row: 9;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.main-photos h4{
+    grid-row: 13;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.main-photos h5{
+    grid-row: 17;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.main-photos h6{
+    grid-row: 21;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.civic{
+    grid-row: 2;
+}
+.c1{
+    grid-row: 3;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.civic img:hover{
+    border-radius: 15px 150px;
+}
+.fort{
+    grid-row: 6;
+}
+.f1{
+    grid-row: 7;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+
+}
+.fort:hover{
+    border-radius: 15px 150px;
+}
+.golf{
+    grid-row: 10;
+}
+.g1{
+    grid-row: 11;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.golf:hover{
+    border-radius: 15px 150px;
+}
+.park{
+    grid-row: 14;
+}
+.pa1{
+    grid-row: 15;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.park:hover{
+    border-radius: 15px 150px;
+}
+.baloon{
+    grid-row: 18;
+}
+.b1{
+    grid-row: 19;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.baloon:hover{
+    border-radius: 15px 150px;
+}
+.downtown{
+    grid-row: 22;
+}
+.d1{
+    grid-row: 23;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    background-color: #660708;
+    color: #D3D3D3;
+}
+.downtown:hover{
+    border-radius: 15px 150px;
 }
