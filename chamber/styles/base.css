@@ -422,9 +422,8 @@ input[type="checkbox"]{
     margin: 0px;
     background-color: #660708;
     color: #D3D3D3;
-
 }
-.fort:hover{
+.fort img:hover{
     border-radius: 15px 150px;
 }
 .golf{
