@@ -227,7 +227,6 @@
      .discover-main{
         display: grid;
         grid-template-columns: 1;
-        grid-template-rows: repeat(10, auto);
      }
      .visits{
         padding: 25px;
