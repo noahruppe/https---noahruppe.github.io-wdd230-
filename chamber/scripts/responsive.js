@@ -99,9 +99,6 @@ let daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
 
 if (daysDifference < 1) {
     visitsDisplay.textContent = "Back so soon! Awesome!";
-} else {
-    let dayString = daysDifference === 1 ? "day" : "days";
-    visitsDisplay.textContent = `You last visited ${daysDifference} ${dayString} ago.`;
 }
 
 let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;

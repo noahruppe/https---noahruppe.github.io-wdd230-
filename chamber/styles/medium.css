@@ -147,7 +147,7 @@
         border-radius: 0px;
     }
     main{
-        grid-template-rows: 1fr 80px 1fr 1fr 1fr 1fr 1fr 1fr 5px;
+        grid-template-rows: repeat(9,auto);
     }
     main img{
         height: 100%;
@@ -248,6 +248,18 @@
     }
     .statesville-pic{
         width: 50%;
+    }
+    .golf img:hover{
+        border-radius: 0px 0px;
+    }
+    .park img:hover{
+        border-radius: 0px 0px;
+    }
+    .baloon img:hover{
+        border-radius: 0px 0px;
+    }
+    .downtown img:hover{
+        border-radius: 0px 0px;
     }
     
 } 

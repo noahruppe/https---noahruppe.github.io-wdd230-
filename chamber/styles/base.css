@@ -430,6 +430,9 @@ input[type="checkbox"]{
 .golf{
     grid-row: 10;
 }
+.golf img:hover{
+    border-radius: 15px 150px;
+}
 .g1{
     grid-row: 11;
     font-size: x-large;
@@ -437,9 +440,6 @@ input[type="checkbox"]{
     margin: 0px;
     background-color: #660708;
     color: #D3D3D3;
-}
-.golf:hover{
-    border-radius: 15px 150px;
 }
 .park{
     grid-row: 14;
@@ -452,7 +452,7 @@ input[type="checkbox"]{
     background-color: #660708;
     color: #D3D3D3;
 }
-.park:hover{
+.park img:hover{
     border-radius: 15px 150px;
 }
 .baloon{
@@ -466,7 +466,7 @@ input[type="checkbox"]{
     background-color: #660708;
     color: #D3D3D3;
 }
-.baloon:hover{
+.baloon img:hover{
     border-radius: 15px 150px;
 }
 .downtown{
@@ -480,6 +480,6 @@ input[type="checkbox"]{
     background-color: #660708;
     color: #D3D3D3;
 }
-.downtown:hover{
+.downtown img:hover{
     border-radius: 15px 150px;
 }
