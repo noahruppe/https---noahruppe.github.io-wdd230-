@@ -1,0 +1,10 @@
+/* Zebra striping */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.hello{
+    text-decoration:  3px solid underline;
+}
+table{
+    border:  3px solid black;
+}
