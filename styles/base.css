@@ -53,9 +53,9 @@ main{
     grid-template-rows: repeat(3,auto);
     column-gap: 100px;
     max-width: 100%;
-    margin: auto;
     text-align: center;
     font-family: "Cormorant Garamond";
+    margin: 0px;
 }
 .temple{
     grid-column: 1/3;
