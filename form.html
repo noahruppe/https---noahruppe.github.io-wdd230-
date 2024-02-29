@@ -45,7 +45,10 @@
                     <label>Confirm Password* <input type="password" id="the-password2" name="confirm-password" pattern="[A-Za-z0-9]{8,}" title="Password must be the same" required> <span id="form-message"></span> </label>
 
                     <label>Email* <input type="email" id="the-email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="please enter a valid email adress"></label>
-                    <label>Page Rating <div id="rangvalue">0</div> <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                    <div class="container2">
+                        <div id="rangvalue">0</div> 
+                        <label>Page Rating <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                    </div>
                     <datalist id="rangevalues">
                         <option value="0">0</option>
                         <option value="1">1</option>

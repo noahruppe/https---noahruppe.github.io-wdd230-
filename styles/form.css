@@ -54,6 +54,8 @@
   
   #rangvalue {
     margin: 2px;
+    position: absolute;
+    left: 19%;
   }
   
   .submit {
@@ -71,6 +73,10 @@
     width: 100%;
     margin-right: 11px;
   }
+  .container2{
+    position: relative;
+  }
+
   
 
 
