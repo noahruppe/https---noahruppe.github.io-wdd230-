@@ -88,19 +88,28 @@ year.innerHTML = currentDate.getFullYear();
 
 // page visits
 
-const visitsDisplay = document.querySelector('.visits')
-let lastVisit = new Date(window.localStorage.getItem('lastVisit-ls'));
+document.addEventListener("DOMContentLoaded", function() {
+    const visitsDisplay = document.querySelector('.visits');
+    const currentDate = new Date();
+    const lastVisit = new Date(localStorage.getItem('lastVisit-ls'));
+    const numVisits = Number(localStorage.getItem('numVisits-ls')) || 0;
 
-window.localStorage.setItem('lastVisit-ls', currentDate);
+    let timeDifference = currentDate - lastVisit;
+    let daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
 
-let timeDifference = currentDate - lastVisit;
+    if (daysDifference === 0) {
+        visitsDisplay.textContent = "Back so soon! Awesome!";
+    } else {
+        let message;
+        if (daysDifference === 1) {
+            message = "You last visited 1 day ago";
+        } else {
+            message = "You last visited " + daysDifference + " days ago.";
+        }
+        visitsDisplay.textContent = message;
+    }
 
-let daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
+    localStorage.setItem('lastVisit-ls', currentDate);
+    localStorage.setItem('numVisits-ls', numVisits + 1);
+});
 
-if (daysDifference < 1) {
-    visitsDisplay.textContent = "Back so soon! Awesome!";
-}
-
-let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
-numVisits++; // Increment the number of visits
-window.localStorage.setItem('numVisits-ls', numVisits);
