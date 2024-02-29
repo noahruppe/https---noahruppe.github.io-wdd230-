@@ -3,6 +3,9 @@
 
 body{
     background-color: #606C38;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     background-color: #283618;
@@ -149,6 +152,7 @@ footer{
     color: #000;
     text-align: center;
     font-family: oswald;
+    
 }
 footer p {
     margin: 0; 
@@ -175,3 +179,4 @@ li::before{
     color: #fff;
     margin-bottom: initial;
 }
+

@@ -17,6 +17,8 @@ hambutton.addEventListener('click',() =>{
 })
 
 
+//this is for the page visiter
+
 const visitsDisplay = document.querySelector('.visits')
  
 let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
@@ -31,3 +33,6 @@ else{
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+
+
