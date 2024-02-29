@@ -71,3 +71,17 @@
     margin-right: 11px;
   }
   
+
+
+
+  @media only screen and (min-width:100px) and (max-width: 600px){
+   .form-box{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: auto;
+   }
+   main{
+    width: 100%;
+   }
+}
