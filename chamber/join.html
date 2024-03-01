@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="this is a chamber of commerce project located in statesville,NC. this Webpage is created by Noah Ruppe">
+    <meta name="author" content="Noah Ruppe">
+    <meta property="og:title" content="Locals Chamber Of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://images.locable.com/eyJidWNrZXQiOiJpbXBhY3QtcHJvZHVjdGlvbiIsImtleSI6Il9vcmlnaW5hbHMvMTc4MjUyNDctN2I2MS00Zjc5LWI0NDUtODRjMDU2Y2YyMDNmL1N0ZXZlIEJpbGxpbmdzIEFlcmlhbCAyLkpQRyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfSwianBlZyI6eyJxdWFsaXR5Ijo4MH19fQ==">
+    <meta property="og:url" content="https://noahruppe.github.io/wdd230/chamber/index.html">
+    <title>Locals Chamber Of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="faviconthereal.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/statesville-pic.webp" alt="Statesville-City-logo">
+        <h1>Locals Chamber of Commerce</h1>
+        <span id="menu"></span>
+        <nav>
+            <div class="link">
+                <a href="index.html">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+            </div>
+        </nav>
+        <div class="background-box">
+            <label class="toggle-box">
+                <input type="checkbox" id="checkbox">
+                <span class="circle"></span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <h2>Join</h2>
+                <div class="padding">
+                    <label class="fname">First Name* <input type="text" id="fname" name="first name" required></label>
+                    <label class="lname">Last Name* <input type="text" id="lname" name="last name" required></label>
+                    <label class="title">Title* <input type="text" id="title" name="title" pattern="\S.{6,}" title="Must be at least 7 characters" required></label>
+                    <label class="email">Email* <input type="email" id="email" name="email"pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="please enter a valid email adress" placeholder="someone@gmail.com" required></label>
+                    <label class="phone">Mobile Phone* <input type="tel" name="phone" id="phone" required></label>
+                    <label>Busniness/Organizations Name* <input type="text" name="company" id="company" required></label>
+                    <label>Membership Level</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="please select a membership">Please select a membership</option>
+                        <option value="NP Membership is for non profit organizations and there is no fee.">NP Membership is for non profit organizations and there is no fee.</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                    <label>The Organizations Description</label>
+                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    <input type="hidden" name="date" id="date">
+                    <input class="submit" type="submit" value="Send Info Now!">
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="membership">
+            <div class="bronze">
+                <h2>Bronze Membership</h2>
+                <p>Cost: $20 per year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>Access to members-only events</li>
+                    <li>Monthly newsletter subscription</li>
+                    <li>Listing in the organization's membership directory</li>
+                    <li>10% discount on organization-sponsored events</li>
+                    <li>Access to online resources and webinars</li>
+                </ul>
+            </div>
+            <div class="silver">
+                <h2>Silver Membership</h2>
+                <p>Cost: $50 per year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All benefits of Bronze Membership</li>
+                    <li>Priority registration for events and workshops</li>
+                    <li>Featured listing on the organization's website</li>
+                    <li>15% discount on organization-sponsored events</li>
+                    <li>Invitation to exclusive networking events</li>
+                </ul>
+            </div>
+            <div class="gold">
+                <h2>Gold Membership</h2>
+                <p>Cost: $100 per year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All benefits of Silver Membership</li>
+                    <li>VIP seating at events</li>
+                    <li>Special recognition in the organization's annual report</li>
+                    <li>20% discount on organization-sponsored events</li>
+                    <li>One free advertisement in the organization's newsletter or website</li>
+                    <li>Personalized consultation with organization experts</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span>
+        <p>WDD 230 Project</p>
+        <p>Contact Info: 704-880-7122</p>
+        <p>Noah Ruppe</p>
+        Last Modified: <span id="lastModified"></span>
+    </footer>
+    <script src="scripts/responsive.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

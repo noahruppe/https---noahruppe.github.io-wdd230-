@@ -113,3 +113,14 @@ document.addEventListener("DOMContentLoaded", function() {
     localStorage.setItem('numVisits-ls', numVisits + 1);
 });
 
+
+
+
+//-------------THIS IS FOR THE TIME STAMP ON THE JOIN PAGE--------
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var timestampInput = document.getElementById("date");
+
+    timestampInput.value = Date.now();
+});

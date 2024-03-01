@@ -39,7 +39,7 @@ header a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 1fr 80px 1fr 1fr 20px;
+    grid-template-rows: repeat(5,auto);
     grid-gap: 30px;
 }
 .lengths{               /*later will be changeing image back to the origial image this is where the original image was and everything inside is how it was too. */
@@ -483,3 +483,74 @@ input[type="checkbox"]{
 .downtown img:hover{
     border-radius: 15px 150px;
 }
+
+
+
+
+
+/*------------------<THIS IS THE START OF THE JOIN PAGE -----------------------*/
+form{
+    grid-column: 3/8;
+
+}
+fieldset{
+    grid-column: 3/8;
+    height: 1000px;
+    margin-top: 30px;
+    padding: 0px;
+    background-color: #660708;
+}
+fieldset h2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 40px;
+    font-size: 40px;
+    color: #F5F3F4;
+}
+.padding{
+    padding-left: 9px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.padding label{
+    margin-top: 29px;
+    color: #F5F3F4;
+}
+.padding input{
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    margin-top: 5px;
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lname{
+    width: 75%;
+}
+#fname{
+    width: 75%;
+}
+#title{
+    width: 75%;
+}
+#email{
+    width: 75%;
+}
+#phone{
+    width: 75%;
+}
+#company{
+    width: 75%;
+}
+select{
+    width: 75%;
+}
+
