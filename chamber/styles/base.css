@@ -554,3 +554,63 @@ select{
     width: 75%;
 }
 
+/*----------------------- for the membership -----------------*/
+.membership{
+    grid-column: 9/13;
+    margin-top: 10px;
+}
+.bronze{
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: x-large;
+}
+.bronze h2{
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #660708;
+}
+.bronze p{
+    margin-left: 5px;
+}
+.silver{
+    background-color: #D3D3D3;
+    color: #000;
+    font-size: x-large;
+}
+.silver h2{
+    background-color: #660708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D3D3D3;
+}
+.silver p{
+    margin-left: 5px;
+}
+.gold{
+    background-color: #000;
+    color: #F5F3F4;
+    font-size: x-large;
+}
+.gold h2{
+    background-color: #660708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F3F4;
+}
+.gold p{
+    margin-left: 5px;
+}
+.joining{
+    grid-column: 1/13;
+    grid-row: 1/6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: #000 ;
+}

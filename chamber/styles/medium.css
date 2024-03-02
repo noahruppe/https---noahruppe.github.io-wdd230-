@@ -119,6 +119,12 @@
     .sidebar h1{
         font-size: x-large;
     }
+    form{
+        grid-column: 1/5;
+    }
+    .membership{
+        grid-column: 5/13;
+    }
 
 }
 @media only screen and (min-width:200px) and (max-width:641px){
@@ -260,6 +266,14 @@
     }
     .downtown img:hover{
         border-radius: 0px 0px;
+    }
+    form{
+        grid-column: 1/13;
+        grid-row: 1/5;
+    }
+    .membership{
+        grid-column: 1/13;
+        grid-row: 5/10;
     }
     
 } 
