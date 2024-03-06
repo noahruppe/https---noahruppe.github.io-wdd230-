@@ -1,0 +1,26 @@
+{
+    "family name": "johnson family",
+    "date family moved in" : "05/23/23",
+    "number of people in family" : 3,
+    "visited by bishop" : true,
+    "members" : [
+        {
+        "name" : "nick",
+        "gender" : "male",
+        "birthdate" : "05/21/1999"
+        },
+
+        {
+            "name" : "jamie",
+            "gender" : "female",
+            "birthdate" : "03/14/1996"
+        },
+        {
+            "name" : "rhayden",
+            "gender" : "male",
+            "birthdate" : "04/25/23"
+        }
+    ]
+
+
+}
