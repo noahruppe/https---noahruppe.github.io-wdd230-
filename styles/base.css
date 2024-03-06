@@ -65,9 +65,24 @@ main{
     width: 100%;
     height: auto;
 }
+#cards{
+    grid-column: 1/4;
+    background-color: #FEFAE0;
+    text-align: justify;
+    counter-reset: section-counter;
+}
+#cards section {
+    counter-increment: section-counter;
+    padding-top: 8px;
+}
+#cards section::before {
+    content: counter(section-counter) ":";
+    margin-right: 0.5em; 
+    color: black;
+}
 .card{
     display: grid;
-    max-width: 400px;
+    width: 420px;
     grid-row: 3;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px auto auto;
