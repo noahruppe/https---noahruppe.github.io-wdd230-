@@ -124,3 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     timestampInput.value = Date.now();
 });
+
+
+// -----------------THIS IS FOR THE JSON FILE ----------------------
+

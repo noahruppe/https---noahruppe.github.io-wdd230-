@@ -1,0 +1,67 @@
+{
+    "companies" : [
+        {
+            "name" : "Creative sign solutions",
+            "address" : "168 Ravencrest Dr, Statesville, NC 28625",
+            "phone" : "704-458-4921",
+            "url" : "https://signsbycss.com/",
+            "imageurl" : "https://signsbycss.com/catalog/view/theme/signsbycss/image/logo.png",
+            "membership" : "Gold",
+            "scope" : "Sign Company"
+        },
+        {
+            "name" : "Sharp's Lawn Equipment & Service",
+            "address" : "609 Mocksville highway, Statesville, NC",
+            "phone" : "704-872-1135",
+            "url" : "https://www.sharpeslawn.com/",
+            "imageurl" : "https://www.sharpeslawn.com/wp-content/uploads/2022/05/Sharpes-Lawn-Equipment.png",
+            "membership": "Bronze",
+            "scope" : "Lawn Care Company"
+        },
+        {
+            "name" : "Klein Electric",
+            "address" : "1094 Turnersburg Hwy. Suite G, Statesville, NC",
+            "phone" : "704-401-6691",
+            "url" : "https://www.facebook.com/kleinelectricllc/",
+            "imageurl" : "chamber/images/klein.webp",
+            "membership" : "Silver",
+            "scope" : "Electrical Company"
+        },
+        {
+            "name" : "Carolina Roofing Pro's",
+            "address" : "218 West Broad St, Statesville, NC",
+            "phone" : "704-887-6911",
+            "url" : "https://carolinaroofingprosllc.net/",
+            "imageurl" : "https://carolinaroofingprosllc.net/wp-content/uploads/2021/04/logo.png",
+            "membership" : "Silver",
+            "scope" : "Roofing Company"
+        },
+        {
+            "name" : "Attornys At Law, Benbow, Davidson & Martin, PC",
+            "address" : "309 Davie Ave, Statesville, NC",
+            "phone" : "704-871-9000",
+            "url" : "https://www.statesvillelaw.com/",
+            "imageurl" : "https://static.wixstatic.com/media/2fe33b_d458f7af28d9450ba09b3fd1ae326007~mv2.png/v1/fill/w_145,h_145,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2fe33b_d458f7af28d9450ba09b3fd1ae326007~mv2.png",
+            "membership" : "Gold",
+            "scope" : "Attornys At Law"
+        },
+        {
+            "name" : "Statesville Family Practice",
+            "address" : "310 Davie Ave, Statesville, NC",
+            "phone" : "704-567-2913",
+            "url" : "https://www.iredellhealth.org/locations/statesville-family-practice/",
+            "imageurl" : "https://www.iredellhealth.org/img/logo.svg",
+            "membership" : "Silver",
+            "scope" : "Health Care"
+        },
+        {
+            "name" : "Rim Fire Music Store",
+            "address" : "115 W.Broad St, Statesville, NC",
+            "phone" : "704-273-9919",
+            "url" : "https://www.facebook.com/profile.php?id=100034425200302",
+            "imageurl" : "chamber/images/music.webp",
+            "membership" : "Bronze",
+            "scope" : "Music Shop"
+        }
+    ]
+}
