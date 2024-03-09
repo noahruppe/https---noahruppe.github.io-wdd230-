@@ -19,11 +19,11 @@
             "scope" : "Lawn Care Company"
         },
         {
-            "name" : "Klein Electric",
-            "address" : "1094 Turnersburg Hwy. Suite G, Statesville, NC",
+            "name" : "Gibsons Electrical And Lighting",
+            "address" : "772 Washington Ave, Statesville, NC 28677",
             "phone" : "704-401-6691",
-            "url" : "https://www.facebook.com/kleinelectricllc/",
-            "imageurl" : "https://www.facebook.com/photo/?fbid=488911059906460&set=a.488911043239795",
+            "url" : "https://www.gibsonselectrical.com/",
+            "imageurl" : "https://www.gibsonselectrical.com/wp-content/uploads/2023/08/Gibsons-Eletrical-and-Lighting-Statesville-NC-Logo-Blue-.png",
             "membership" : "Silver",
             "scope" : "Electrical Company"
         },
@@ -55,11 +55,11 @@
             "scope" : "Health Care"
         },
         {
-            "name" : "Rim Fire Music Store",
-            "address" : "115 W.Broad St, Statesville, NC",
+            "name" : "Tone Studio's",
+            "address" : "1117 Radio Rd, Statesville, NC 28677",
             "phone" : "704-273-9919",
-            "url" : "https://www.facebook.com/profile.php?id=100034425200302",
-            "imageurl" : "https://www.facebook.com/photo/?fbid=779591829864983&set=a.779591793198320",
+            "url" : "https://www.tonestudionc.com/",
+            "imageurl" : "https://lirp.cdn-website.com/4e9ccbc8/dms3rep/multi/opt/logo2-320w.png",
             "membership" : "Bronze",
             "scope" : "Music Shop"
         }
