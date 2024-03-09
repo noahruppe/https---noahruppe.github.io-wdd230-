@@ -662,12 +662,12 @@ select{
     padding: 8px;
     width: 35%; 
 }
-
-.creative-sign-solutions{
+.sharps-lawn-equipment--service{
     border: 3px solid #660708;
     background-color: #D3D3D3;
+    margin-top: 50px;
 }
-.creative-sign-solutions h2{
+.sharps-lawn-equipment--service h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -676,25 +676,196 @@ select{
     font-size: 40px;
     margin: 0px;
 }
-.creative-sign-solutions p{
+.sharps-lawn-equipment--service p{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
     font-size: 18px;
 }
-.creative-sign-solutions a{
+.sharps-lawn-equipment--service a{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
     font-size: 18px;
 }
-.sharps-lawn img{
+.sharps-lawn-equipment--service img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 8px;
     width: 35%; 
+}
+
+
+.gibsons-electrical-and-lighting {
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.gibsons-electrical-and-lighting h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.gibsons-electrical-and-lighting p,
+.gibsons-electrical-and-lighting a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.gibsons-electrical-and-lighting img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 35%;
+}
+
+.carolina-roofing-pros {
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.carolina-roofing-pros h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.carolina-roofing-pros p,
+.carolina-roofing-pros a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.carolina-roofing-pros img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 27%;
+}
+
+.attornys-at-law-benbow-davidson--martin-pc {
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.attornys-at-law-benbow-davidson--martin-pc h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.attornys-at-law-benbow-davidson--martin-pc p,
+.attornys-at-law-benbow-davidson--martin-pc a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.attornys-at-law-benbow-davidson--martin-pc img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 25%;
+}
+
+.statesville-family-practice {
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.statesville-family-practice h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.statesville-family-practice p,
+.statesville-family-practice a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.statesville-family-practice img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 27%;
+}
+
+.tone-studios {
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.tone-studios h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.tone-studios p,
+.tone-studios a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.tone-studios img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 23%;
 }

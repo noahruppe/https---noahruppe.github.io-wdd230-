@@ -12,7 +12,7 @@ async function getCompanies() {
     let thefile =document.createElement('section');
     companies.forEach(company =>{
         let companyDiv = document.createElement('div');
-        let className = company.name.replace(/\s+/g, '-').toLowerCase();
+        let className = company.name.replace(/\s+/g, '-').toLowerCase().replace(/['&]/g, '').replace(/[^\w-]/g, '');
         companyDiv.classList.add(className);
 
         let name = document.createElement('h2');
@@ -22,10 +22,10 @@ async function getCompanies() {
         address.textContent = `Address: ${company.address}`;
 
         let phone = document.createElement('p');
-        phone.textContent = company.phone;
+        phone.textContent = `Phone: ${company.phone}`;
 
         let url = document.createElement('a');
-        url.textContent = company.url;
+        url.textContent = `${company.url}`;
         url.href = company.url;
         url.target = "_blank";
 
@@ -33,10 +33,10 @@ async function getCompanies() {
         image.src = company.imageurl;
 
         membership = document.createElement('p');
-        membership.textContent = `Membership ${company.membership}`;
+        membership.textContent = `Membership: ${company.membership}`;
 
         let scope =document.createElement('p');
-        scope.textContent = `Scope ${company.scope}`;
+        scope.textContent = `Scope: ${company.scope}`;
 
         companyDiv.appendChild(name);
         companyDiv.appendChild(address);

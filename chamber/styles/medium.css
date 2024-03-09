@@ -125,6 +125,9 @@
     .membership{
         grid-column: 5/13;
     }
+    #the-file{
+        grid-column: 1/13;
+    }
 
 }
 @media only screen and (min-width:200px) and (max-width:641px){
@@ -274,6 +277,9 @@
     .membership{
         grid-column: 1/13;
         grid-row: 5/10;
+    }
+    #the-file{
+        grid-column: 1/13;
     }
     
 } 
