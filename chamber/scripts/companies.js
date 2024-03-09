@@ -12,13 +12,14 @@ async function getCompanies() {
     let thefile =document.createElement('section');
     companies.forEach(company =>{
         let companyDiv = document.createElement('div');
-        companyDiv.classList.add("companies");
+        let className = company.name.replace(/\s+/g, '-').toLowerCase();
+        companyDiv.classList.add(className);
 
         let name = document.createElement('h2');
         name.textContent = company.name;
 
         let address = document.createElement('p');
-        address.textContent = company.address;
+        address.textContent = `Address: ${company.address}`;
 
         let phone = document.createElement('p');
         phone.textContent = company.phone;
@@ -46,7 +47,8 @@ async function getCompanies() {
         companyDiv.appendChild(scope);
 
         thefile.appendChild(companyDiv);
-    })
+    });
+    theFile.appendChild(thefile);
  }
 
 

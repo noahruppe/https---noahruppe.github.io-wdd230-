@@ -614,3 +614,87 @@ select{
     font-size: xx-large;
     color: #000 ;
 }
+
+/*-------------------- DIRECTORY FILE ---------------*/
+.members1{
+    grid-column: 1/13;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#the-file{
+    grid-row: 2;
+    grid-column: 4/10;
+}
+.creative-sign-solutions{
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+}
+.creative-sign-solutions h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+.creative-sign-solutions p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+.creative-sign-solutions a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+.creative-sign-solutions img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 35%; 
+}
+
+.creative-sign-solutions{
+    border: 3px solid #660708;
+    background-color: #D3D3D3;
+}
+.creative-sign-solutions h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #660708;
+    color: #D3D3D3;
+    font-size: 40px;
+    margin: 0px;
+}
+.creative-sign-solutions p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+.creative-sign-solutions a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+}
+.sharps-lawn img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    width: 35%; 
+}
