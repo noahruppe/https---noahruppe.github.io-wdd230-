@@ -32,7 +32,7 @@
         margin: 0px;
     }
     main{
-    grid-template-rows: 1fr 80px 1fr 1fr 1fr 5px;
+    grid-template-rows: repeat(5,auto);
     }
     /* main img{
         height: 100%;
@@ -46,6 +46,7 @@
     .land{
         grid-column: 1/13;
         grid-row: 5;
+        margin-bottom: 27px;
     }
     .background-box{
        grid-column: 3;
@@ -127,6 +128,9 @@
     }
     #the-file{
         grid-column: 1/13;
+    }
+    .members1{
+        margin-bottom: 0px;
     }
 
 }
