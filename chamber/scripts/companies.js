@@ -25,6 +25,9 @@ const membersUrl = "https://noahruppe.github.io/wdd230/chamber/data/members.json
 
                 let address = document.createElement('p');
                 address.textContent = `Address: ${company.address}`;
+                if (layout === 'list') {
+                    address.classList.add('list-address');
+                }
 
                 let phone = document.createElement('p');
                 phone.textContent = `Phone: ${company.phone}`;

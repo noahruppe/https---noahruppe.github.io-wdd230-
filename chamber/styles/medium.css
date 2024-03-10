@@ -285,5 +285,24 @@
     #the-file{
         grid-column: 1/13;
     }
+    .grid section div img{
+        height: auto;
+    }
+    .list section div h2{
+       font-size: smaller
+    }
+    .list section div p{
+        font-size: small;
+        padding-left: 5px;
+    }
+    #grid{
+       
+    }
+    #list1{
+        
+    }
+    .area{
+        width: 100%;
+    }
     
 } 

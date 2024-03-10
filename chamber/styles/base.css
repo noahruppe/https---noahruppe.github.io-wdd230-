@@ -635,7 +635,9 @@ select{
 }
 #the-file{
     grid-column: 1/13;
+    grid-row: 3/6;
     width: 100%;
+    margin-bottom: 10px;
 }
 .grid{
     grid-column: 1/13;
@@ -707,8 +709,17 @@ select{
 .list section div{
     grid-column: 1/5;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     width: 100%;
     justify-content: space-between;
 }
-
+.list-address{
+    display: none;
+}
+.list section div p{
+    padding-left: 100px;
+}
+.list section:nth-child(even) {
+	background-color: #660708;
+    color: #D3D3D3;
+}
