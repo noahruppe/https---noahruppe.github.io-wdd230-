@@ -106,34 +106,55 @@ main{
 }
 .cards{
     display: grid;
+    grid-template-rows: 80px 80px 80px auto;
     max-width: 400px;
     grid-row: 3;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 80px auto auto;
     color: white;
     font-size: x-large;
     border: groove #000;
     border-radius: 10px;
 }
-
-.cards p{
-    color: #283618;
-    grid-column: 1/4;
+.spacement{
     background-color: #FEFAE0;
-    margin: initial;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    grid-column: 1/4;
+    grid-row: 2/5;
+    color: #283618;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px 80px 80px auto;
+}
+#weather-icon{
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    margin-right: inherit;
+}
+#current-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+figcaption{
+    background-color: #FEFAE0;
+    grid-column: 1/4;
+    color: #283618;
+}
+.this{
+    grid-column: 2;
 }
 
 h3{
+    display: flex;
     background-color: #283618;
     grid-column: 1/4;
     align-self: center;
     font-family: Oswald;
-    margin: auto;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    padding-top: 20px;
+    margin: initial;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     text-decoration-line: underline;
