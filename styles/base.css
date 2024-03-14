@@ -136,7 +136,7 @@ main{
     grid-column: 2;
     grid-row: 1;
 }
-figcaption{
+.the-weather{
     background-color: #FEFAE0;
     grid-column: 1/4;
     color: #283618;
