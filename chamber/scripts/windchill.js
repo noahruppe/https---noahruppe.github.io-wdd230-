@@ -79,7 +79,7 @@ function showResults(data) {
                 ${dayOfWeekString}: 
                 ${weatherDescription}, 
                 Temperature: ${temperature} ∘F 
-                <img src="http://openweathermap.org/img/wn/${iconCode}.png" alt="${weatherDescription} Icon" style="width:50px; height:50px;">
+                <img src="https://openweathermap.org/img/wn/${iconCode}.png" alt="${weatherDescription} Icon" style="width:50px; height:50px;">
             `;
 
             dayOfWeek.appendChild(dayElement);
