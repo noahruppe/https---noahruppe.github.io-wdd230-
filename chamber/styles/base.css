@@ -39,7 +39,7 @@ header a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(5,auto);
+    grid-template-rows: repeat(6,auto);
     grid-gap: 30px;
 }
 .lengths{               /*later will be changeing image back to the origial image this is where the original image was and everything inside is how it was too. */
@@ -50,10 +50,37 @@ main{
 main img{
     width: 100%;
 }
+#loose{
+    display: none;
+}
+#close::before{
+    content: '❌';
+    
+}
+#close:hover{
+    cursor: pointer;
+}
+#close{
+    margin: 5px;
+    display: flex;
+}
+#banner{
+    grid-column: 1/13;
+    grid-row: 2;
+    border: #000 3px solid;
+    width: 100%;
+    height: 300px;
+    background-color: #660708;
+}
+#banner p{
+    color: #D3D3D3;
+    font-size: 40px;
+    text-align: center;
+}
 .cards{
     background-color: #D3D3D3;
     grid-column: 1/7;
-    grid-row: 2/4;
+    grid-row: 3/4;
     border: 3px solid #000;
     display: grid;
     grid-template-columns: 1fr;
@@ -72,12 +99,12 @@ main img{
     font-size: 40px;
 }
 .card1{
-    grid-row: 2/4;
+    grid-row: 3/4;
     grid-column: 7/13;
     border: 3px solid #000;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px 1fr 1fr;
+    grid-template-rows: 80px auto auto;
     background-color: #D3D3D3;
     text-align: center;
     font-size: 30px;
@@ -722,4 +749,11 @@ select{
 .list section:nth-child(even) {
 	background-color: #660708;
     color: #D3D3D3;
+}
+#current-temp{
+    height: 80px;
+}
+#weather-icon{
+    width: 11%;
+    margin: auto;
 }

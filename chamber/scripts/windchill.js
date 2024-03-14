@@ -1,34 +1,107 @@
-fetch('https://api.open-meteo.com/v1/forecast?latitude=35.7826&longitude=-80.8873&current=temperature_2m,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto')
-    .then(response => response.json())
-    .then(data => {
-        // Extract relevant weather information
-        const temperature = data.current.temperature_2m;
-        const windSpeed = data.current.wind_speed_10m;
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('.the-weather');
 
-        // Check if temperature and wind speed meet specification limits
-        if (temperature <= 50 && windSpeed > 3.0) {
-            // Calculate wind chill factor
-            const windChill = calculateWindChill(temperature, windSpeed);
-            // Display wind chill factor
-            document.getElementById('weather-info').innerHTML = `
-                <p>Temperature: ${temperature}°F</p>
-                <p>Wind Speed: ${windSpeed} mph</p>
-                <p>Wind Chill Factor: ${windChill.toFixed(2)}°F</p>
-            `;
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=35.78&lon=-80.88&units=imperial&appid=fcfb8b6735cdbc7c60d934c07e9f9ae0';
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
         } else {
-            // Display "N/A" if specification limits not met
-            document.getElementById('weather-info').innerHTML = `
-                <p>Temperature: ${temperature}°F</p>
-                <p>Wind Speed: ${windSpeed} mph</p>
-                <p>Wind Chill Factor: N/A</p>
-            `;
+            throw Error(await response.text());
         }
-    })
-    .catch(error => {
-        console.error('Error fetching weather data:', error);
-    });
-
-function calculateWindChill(temperature, windSpeed) {
-    // Formula to calculate wind chill factor
-    return 35.74 + 0.6215 * temperature - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
+    } catch (error) {
+        console.log(error);
+    }
 }
+
+apiFetch();
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = desc;
+}
+
+
+const threeDay = 'https://api.openweathermap.org/data/2.5/forecast?lat=35.78&lon=-80.88&units=imperial&appid=fcfb8b6735cdbc7c60d934c07e9f9ae0'
+
+async function apiGetter() {
+    try {
+        const response = await fetch(threeDay);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            showResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+apiGetter();
+
+
+const dayOfWeek = document.querySelector('#day-of-week');
+
+function showResults(data) {
+    dayOfWeek.innerHTML = '';
+
+    let uniqueDays = 0;
+    let lastDay = null;
+
+    for (let i = 0; i < data.list.length && uniqueDays < 3; i++) {
+        const weatherData = data.list[i];
+
+        const date = new Date(weatherData.dt_txt);
+        if (date.getHours() !== 12) {
+            continue;
+        }
+
+        const dayOfWeekString = date.toLocaleDateString('en-US', { weekday: 'long' });
+
+        if (dayOfWeekString !== lastDay) {
+            const weatherDescription = weatherData.weather[0].description;
+            const temperature = weatherData.main.temp;
+            const iconCode = weatherData.weather[0].icon;
+
+            const dayElement = document.createElement('p');
+            dayElement.innerHTML = `
+                ${dayOfWeekString}: 
+                ${weatherDescription}, 
+                Temperature: ${temperature} ∘F 
+                <img src="http://openweathermap.org/img/wn/${iconCode}.png" alt="${weatherDescription} Icon" style="width:50px; height:50px;">
+            `;
+
+            dayOfWeek.appendChild(dayElement);
+
+            lastDay = dayOfWeekString;
+            uniqueDays++;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
