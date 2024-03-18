@@ -13,22 +13,24 @@ header{
 
 }
 header img{
-max-width: 100px;
-padding: 10px;
+    max-width: 100px;
+    padding: 10px;
 }
 header h1{
     padding-left: 10px;
     font-family: 'Bebas Neue';
+    width: 25%;
 }
 header nav{
     margin-left: 80px;
     font-size: x-large;
+    width: 63%;
 }
 header a{
     color: #D3D3D3;
     text-decoration: none;
     margin-left: 80px;
-    padding: 20px;
+    padding: 10px;
     border: 0px solid;
     border-radius: 10px;
     font-family: 'EB Garamond';
@@ -83,13 +85,15 @@ main img{
     grid-row: 3/4;
     border: 3px solid #000;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 80px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 1fr;
     text-align: center;
     font-size: 30px;
 }
 
 .cards h2{
+    grid-column: 1/4;
+    grid-row: 1;
     text-align: center;
     background-color: #660708;
     color: #D3D3D3;
@@ -97,6 +101,32 @@ main img{
     padding-top: 20px;
     font-family: 'Bebas Neue' ;
     font-size: 40px;
+}
+.expo{
+    grid-column: 1/4;
+    grid-row: 2;
+    margin-top: inherit;
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.expo h3{
+    grid-column: 2;
+    grid-row: 2;
+}
+.expo p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.festivals{
+    grid-column: 1/4;
+    grid-row: 3;
+    margin-top: initial;
+    width: 100%;
+}
+.festivals{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .card1{
     grid-row: 3/4;
@@ -205,11 +235,9 @@ footer{
     margin-top: auto;
 }
 .background-box{
-    margin-left: 110px;
-    margin-top: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   position: absolute;
+   right: 8px;
+   top: 5px;
 }
 .toggle-box{
     width: 70px;
