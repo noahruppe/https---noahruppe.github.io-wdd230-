@@ -171,7 +171,7 @@
         grid-template-rows: repeat(9,auto);
     }
     main img{
-        height: 100%;
+        height: auto;
     }
     .cards{
         grid-column: 1/13;
