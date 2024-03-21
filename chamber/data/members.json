@@ -7,7 +7,8 @@
             "url" : "https://signsbycss.com/",
             "imageurl" : "https://signsbycss.com/catalog/view/theme/signsbycss/image/logo.png",
             "membership" : "Gold",
-            "scope" : "Sign Company"
+            "scope" : "Sign Company",
+            "statement" : "Signs that Speak Volumes!"
         },
         {
             "name" : "Sharps Lawn Equipment & Service",
@@ -16,7 +17,8 @@
             "url" : "https://www.sharpeslawn.com/",
             "imageurl" : "https://www.sharpeslawn.com/wp-content/uploads/2022/05/Sharpes-Lawn-Equipment.png",
             "membership": "Bronze",
-            "scope" : "Lawn Care Company"
+            "scope" : "Lawn Care Company",
+            "statement" : "Green Dreams, Pristine Lawns."
         },
         {
             "name" : "Gibsons Electrical And Lighting",
@@ -25,7 +27,8 @@
             "url" : "https://www.gibsonselectrical.com/",
             "imageurl" : "https://www.gibsonselectrical.com/wp-content/uploads/2023/08/Gibsons-Eletrical-and-Lighting-Statesville-NC-Logo-Blue-.png",
             "membership" : "Silver",
-            "scope" : "Electrical Company"
+            "scope" : "Electrical Company",
+            "statement" : "Powering Your World, Safely and Reliably."
         },
         {
             "name" : "Carolina Roofing Pro's",
@@ -34,7 +37,8 @@
             "url" : "https://carolinaroofingprosllc.net/",
             "imageurl" : "https://carolinaroofingprosllc.net/wp-content/uploads/2021/04/logo.png",
             "membership" : "Silver",
-            "scope" : "Roofing Company"
+            "scope" : "Roofing Company",
+            "statement" : "Elevating Your Roofing Experience."
         },
         {
             "name" : "Attornys At Law, Benbow, Davidson & Martin, PC",
@@ -43,7 +47,8 @@
             "url" : "https://www.statesvillelaw.com/",
             "imageurl" : "https://static.wixstatic.com/media/2fe33b_d458f7af28d9450ba09b3fd1ae326007~mv2.png/v1/fill/w_145,h_145,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2fe33b_d458f7af28d9450ba09b3fd1ae326007~mv2.png",
             "membership" : "Gold",
-            "scope" : "Attornys At Law"
+            "scope" : "Attornys At Law",
+            "statement" : "Your Justice Advocate, Every Step of the Way."
         },
         {
             "name" : "Statesville Family Practice",
@@ -52,7 +57,8 @@
             "url" : "https://www.iredellhealth.org/locations/statesville-family-practice/",
             "imageurl" : "https://www.iredellhealth.org/img/logo.svg",
             "membership" : "Silver",
-            "scope" : "Health Care"
+            "scope" : "Health Care",
+            "statement" : "Empowering Health, Building Community."
         },
         {
             "name" : "Tone Studio's",
@@ -61,7 +67,8 @@
             "url" : "https://www.tonestudionc.com/",
             "imageurl" : "https://lirp.cdn-website.com/4e9ccbc8/dms3rep/multi/opt/logo2-320w.png",
             "membership" : "Bronze",
-            "scope" : "Music Shop"
+            "scope" : "Music Shop",
+            "statement" : "Harmony Found Here, Your Melody Awaits."
         }
     ]
 }
