@@ -186,15 +186,19 @@
     .signs{
         grid-column: 1/13;
         grid-row: 7;
+        margin: 10px;
     }
     .roofing{
         grid-column: 1/13;
         grid-row: 8;
+        margin: 10px;
     }
     .land{
         grid-column: 1/13;
         grid-row: 9;
         margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     #menu{
         grid-column: 7;
