@@ -115,8 +115,9 @@ main img{
     grid-row: 2;
 }
 .expo p{
-    margin-left: 5px;
-    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px
 }
 .festivals{
     grid-column: 1/4;
@@ -125,7 +126,14 @@ main img{
     width: 100%;
 }
 .festivals p{
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+#day-of-week{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #day-of-week p{
     display: flex;
