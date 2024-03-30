@@ -3,7 +3,7 @@
         font-size: x-large;
     }
     nav div{
-        width: 300px;
+        width: 380px;
     }
     #the-temp-max{
         height: fit-content;
@@ -11,5 +11,150 @@
     header{
         margin-top: -71px;
         height: 180px;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 900px){
+    .boat-water{
+        grid-row: 1/4;
+    }
+    .photo-1{
+        grid-row: 1/4;
+    }
+    .photo-2{
+        grid-row: 1/4;
+    }
+    .photo-3{
+        grid-row: 10/13;
+    }
+    .photo-4{
+        grid-row: 10/13;
+    }
+    .photo-5{
+        grid-row: 10/13;
+    }
+    .weather{
+        grid-row: 4/10;
+    }
+    .main-img{
+        grid-column: 1/13;
+        grid-row: 1;
+    }
+    .ress{
+        grid-column: 1/13;
+        grid-row: 2;
+    }
+    .images-{
+        grid-row: 3;
+    }
+    .reservation{
+        grid-row: 3;
+    }
+    .location{
+        grid-row: 4;
+    }
+    nav div{
+        width: 380px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:641px){
+    .links::before{
+        content: '≡';
+        font-size: 50px;
+    }
+    .links a{
+        display: none;
+    }
+    .links:hover{
+        background-color: orange;
+    }
+    .links{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav div{
+        width: 50%;
+    }
+    #the-temp-max{
+        height: 131px;
+        width: 356px;
+    }
+    header{
+        margin-top: -132px;
+    }
+    #temp-max{
+        height: 100%;
+        font-size: 25px;
+    }
+    .temp-max{
+        font-size: 50px;
+        top: -53px;
+    }
+    .show a{
+        display: flex;
+        flex-direction: row;
+    }
+    .show::before{
+        content: 'Ⅹ';
+        display: flex;
+        justify-content: center;
+    }
+    .links.show{
+        display: block;
+    }
+    .links.show a{
+        display: flex;
+        justify-content: center;
+    }
+    .main-img{
+        grid-row: 1;
+        grid-column: 1/13;
+    }
+    .ress{
+        grid-row: 2/4;
+        grid-column: 1/13;
+        margin-top: 30px;
+    }
+    .boat-water{
+        grid-column: 1/13;
+        grid-row: 1;
+    }
+    .photo-1{
+        grid-column: 1/13;
+        grid-row: 5/7;
+    }
+    .reservation{
+        grid-row: 4;
+        grid-column: 1/13;
+    }
+    .photo-2{
+        display: none;
+    }
+    .photo-3{
+        display: none;
+    }
+    .photo-4{
+        display: none;
+    }
+    .photo-5{
+        display: none;
+    }
+    .images-{
+        grid-template-rows: repeat(7,auto);
+        grid-row: 5;
+        grid-column: 1/13;
+    }
+    .location{
+        grid-row: 7;
+    }
+    .weather{
+        grid-row: 2/4;
+        height: 350px;
+    }
+    footer{
+        grid-row: 8;
     }
 }
