@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a rental company website where you can rent scooters and other things">
+    <meta name="author" content="Noah Ruppe">
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.locable.com/eyJidWNrZXQiOiJpbXBhY3QtcHJvZHVjdGlvbiIsImtleSI6Il9vcmlnaW5hbHMvMTc4MjUyNDctN2I2MS00Zjc5LWI0NDUtODRjMDU2Y2YyMDNmL1N0ZXZlIEJpbGxpbmdzIEFlcmlhbCAyLkpQRyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwfSwianBlZyI6eyJxdWFsaXR5Ijo4MH19fQ==">
+    <meta property="og:url" content="https://noahruppe.github.io/wdd230/scoots/index.html">
+    <title>Scoots</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <div id="the-temp-max">
+        <p class="temp-max">Ⅹ</p>
+        <p id="temp-max"></p>
+    </div>
+    <header>
+        <h1>Scoots</h1>
+    </header>
+    <nav>
+        <div>
+            <img src="images/facebook.webp" alt="facebook logo">
+            <a class="facebook" href="https://www.facebook.com/">Facbook</a>
+            <img src="images/InstagramGrey.6ca8518f.webp" alt="instagram logo">
+            <a class="facebook" href="">Instagram</a>
+        </div>
+        <section class="links">
+            <a href="#">Home</a>
+            <a href="#">Rentals</a>
+            <a href="#">Reservations</a>
+            <a href="#">Contact</a>
+        </section>
+    </nav>
+    <main>
+        <img class="main-img" src="images/cozumel5.webp" alt="main picture of cozemel island" loading="">
+        <div class="ress">
+            <h2>Types Of Rentals</h2>
+            <p>Experience adventure on our scooters, perfect for solo explorers or adventurous pairs!</p>
+            <p>Embrace the wild side of the island with our ATV adventures, perfect for group excursions to even the most untamed corners. Whether you're seeking adrenaline-fueled thrills or off-the-grid exploration, our ATV option awaits.</p>
+            <p>Seeking comfort and versatility for your family or group outing? Look no further than our Jeep option. Experience the thrill and freedom of an ATV, all while enjoying the comfort and convenience of a spacious vehicle, perfect for your adventurous escapades.</p>
+        </div>
+
+        <section class="images-">
+            <img class="boat-water" src="images/boat-water.webp" alt="boat in water" loading="lazy">
+            <img class="photo-1" src="images/photo-1.webp" alt="blue water photo" loading="lazy">
+            <img class="photo-2" src="images/photo-2.webp" alt="blue water" loading="lazy">
+            <img class="photo-3" src="images/photo-3.webp" alt="rocky blue water" loading="lazy">
+            <img class="photo-4" src="images/photo-4.webp" alt="picture of a truck by the water" loading="lazy">
+            <img class="photo-5" src="images/photo-5.webp" alt="fish swimming" loading="lazy">
+            <div class="weather">
+                <div class="current">
+                    <h2>Today's Weather</h2>
+                    <p id="current-temp"></p>
+                    <p id="humidity"></p>
+                    <img id="weather-icon" src="https://openweathermap.org/img/w/" alt="weather icon of weather">
+                </div>
+                <div class="next-day">
+                    <p id="day-of-week"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reservation">
+            <h2>Start Your Adventure By Reserving Now!</h2>
+            <div>
+                <button type="button" onclick="">Reserve Now!</button>
+            </div>
+            <p>Embark on an unforgettable journey filled with adventure and relaxation amidst the stunning landscapes of Cozumel, Mexico. From thrilling escapades to serene retreats, the wonders of this destination await your discovery. Let us be your trusted companion on this extraordinary vacation, ensuring every moment is nothing short of extraordinary.</p>
+        </section>
+
+        <section class="location">
+            <h3>Contact us!</h3>
+            <p>704-993-6532  Or by social media</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1711827026351!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <footer>
+            &copy; <span id = "currentYear"></span>
+            <p>Noah Ruppe</p>
+            Last Modified: <span id = "lastModified"></span>
+        </footer>
+    </main>
+    <script src="scripts/max-temp.js"></script>
+    <script src="scripts/footer.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
+

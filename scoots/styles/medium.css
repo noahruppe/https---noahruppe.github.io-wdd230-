@@ -1,0 +1,15 @@
+@media only screen and (min-width: 641px) and (max-width: 1300px){
+    .reservation p{
+        font-size: x-large;
+    }
+    nav div{
+        width: 300px;
+    }
+    #the-temp-max{
+        height: fit-content;
+    }
+    header{
+        margin-top: -71px;
+        height: 180px;
+    }
+}
