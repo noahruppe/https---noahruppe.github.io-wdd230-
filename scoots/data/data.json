@@ -1,0 +1,100 @@
+{
+    "rentals" : [
+        {
+            "Rental Type" : "Honda Metro Scooter",
+            "Max Person" : 1,
+            "Reservation" : [
+                {
+                    "Half Day (3 hours)" : "$20",
+                    "Full Day" : "$30" 
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$25",
+                    "Full Day" : "$35"
+                }
+            ]
+        },
+        {
+            "Rental Type" : "Honda Dio Scooter",
+            "Max Person" : 2,
+            "Reservation" : [
+                {
+                    "Half Day (3 hours)" : "$30",
+                    "Full Day" : "$40"
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$35",
+                    "Full Day" : "$45"
+                }
+            ]
+        },
+        {
+            "Rental Type": "Honda PCX150 Scooter",
+            "Max Person" : 2,
+            "Reservation" :[
+                {
+                    "Half Day (3 hours)" : "$40",
+                    "Full Day": "$50"
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$45",
+                    "Full Day" : "$55"
+                }
+            ]
+        },
+        {
+            "Rental Type" : "Honda Pioneer ATV",
+            "Max Person" : 4,
+            "Reservation" : [
+                {
+                    "Half Day (3 hours)" : "$50",
+                    "Full Day" : "$70"
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$60",
+                    "Full Day" : "$80"
+                }
+            ]
+        },
+        {
+            "Rental Type" : "Jeep Wrangler - 4 door with a/c",
+            "Max Person" : 5,
+            "Reservation" : [
+                {
+                    "Half Day (3 hours)" : "$70",
+                    "Full Day" : "$100"
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$85",
+                    "Full Day" : "$125"
+                }
+            ]
+        },
+        {
+            "Rental Type" : "Jeep Wrangler - 2 door",
+            "Max Person" : 4,
+            "Reservation" : [
+                {
+                    "Half Day (3 hours)" : "$60",
+                    "Full Day" : "85"
+                }
+            ],
+            "Walk in" : [
+                {
+                    "Half Day (3 hours)" : "$70",
+                    "Full Day" : "90"
+                }
+            ]
+        }
+    ]
+}
