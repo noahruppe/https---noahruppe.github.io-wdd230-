@@ -3,7 +3,7 @@
         font-size: x-large;
     }
     nav div{
-        width: 380px;
+        width: 11%;
     }
     #the-temp-max{
         height: fit-content;
@@ -11,6 +11,9 @@
     header{
         margin-top: -71px;
         height: 180px;
+    }
+    .agreements-box{
+        grid-column: 1/13;
     }
 }
 @media only screen and (min-width: 641px) and (max-width: 900px){
@@ -53,7 +56,7 @@
         grid-row: 4;
     }
     nav div{
-        width: 380px;
+        width: 15%;
     }
 }
 
@@ -66,7 +69,7 @@
         display: none;
     }
     .links:hover{
-        background-color: orange;
+        background-color: none;
     }
     .links{
         width: 50%;
@@ -76,7 +79,10 @@
         
     }
     nav div{
-        width: 50%;
+        width: 28%;
+    }
+    nav div :hover{
+        background-color: none;
     }
     #the-temp-max{
         height: 131px;
@@ -156,5 +162,77 @@
     }
     footer{
         grid-row: 8;
+    }
+    .agreements-box{
+        grid-column: 1/13;
+    }
+    .p1{
+        grid-row: 5;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot1{
+        grid-row: 6;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .p2{
+        grid-row: 7;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot2{
+        grid-row: 8;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .p3{
+        grid-row: 9;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot3{
+        grid-row: 10;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .p4{
+        grid-row: 11;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot4{
+        grid-row: 12;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .p5{
+        grid-row: 13;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot5{
+        grid-row: 14;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .p6{
+        grid-row: 15;
+        grid-column: 1/13;
+        text-align: center;
+    }
+    .scoot6{
+        grid-row: 16;
+        grid-column: 1/13;
+        width: 100%;
+        height: 100%;
+    }
+    .services-w-descriptions {
+        font-size: larger;
     }
 }
