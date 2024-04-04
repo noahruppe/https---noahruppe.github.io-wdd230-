@@ -28,19 +28,21 @@ header h1 {
 nav div {
     width: fit-content;
     font-size: large;
-    margin-top: 15px;
+    display: flex;
 }
 
 nav img {
-    width: 30px;
+    width: 26px;
     vertical-align: middle;
+    height: fit-content;
+    margin-top: 15px;
 }
 
 .facebook {
     text-decoration: none;
     color: black;
     padding: 14px;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 nav {

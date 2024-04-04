@@ -3,8 +3,11 @@
         font-size: x-large;
     }
     nav div{
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    nav img{
+        margin-top: 0px;
     }
     #the-temp-max{
         height: fit-content;
@@ -71,8 +74,11 @@
         grid-row: 4;
     }
     nav div{
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    nav img{
+        margin-top: 0px;
     }
     .the-box{
         grid-row: 1;
@@ -109,8 +115,8 @@
         
     }
     nav div{
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
+        vertical-align: middle;
     }
     #the-temp-max{
         height: 131px;
@@ -285,5 +291,8 @@
         margin-top: 50px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    nav img{
+        margin-top: 0px;
     }
 }
