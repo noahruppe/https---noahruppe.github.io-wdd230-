@@ -10,3 +10,10 @@ back.addEventListener('click', () => {
     hambutton.classList.toggle('show');
     back.classList.toggle('show');
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const location = document.querySelector('.location');
+    location.style.height = '500';
+});

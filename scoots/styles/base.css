@@ -274,11 +274,12 @@ main {
     grid-template-rows: repeat(12, auto);
     margin-left: 25px;
     margin-right: 25px;
+    height: 900px;
+    column-gap: 10px;
 
 }
 
 .location p {
-    grid-row: 2;
     grid-column: 1/13;
     text-align: center;
     font-size: x-large;
@@ -300,6 +301,18 @@ main {
 .map iframe {
     width: 100%;
 }
+.island-scooters{
+    grid-column: 1/7;
+    width: 100%;
+    grid-row: 3;
+    margin-right: 20px;
+}
+.wheel-scooters{
+    width: 100%;
+    grid-column: 7/13;
+    grid-row: 3;
+}
+
 
 /*-------------------------- this is the footer-------------------*/
 footer {
@@ -351,7 +364,7 @@ footer {
 .agreements-box {
     grid-row: 2/3;
     grid-column: 4/10;
-    height: 800px;
+    height: 505px;
     background-color: rgba(0, 213, 246, 0.904);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -386,7 +399,7 @@ tr{
 .scoot1{
     grid-row: 6;
     grid-column: 2/3;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .p2{
@@ -397,7 +410,7 @@ tr{
 .scoot2{
     grid-row: 6;
     grid-column: 6/8;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .p3{
@@ -408,7 +421,7 @@ tr{
 .scoot3{
     grid-row: 6;
     grid-column: 11/12;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .p4{
@@ -419,7 +432,7 @@ tr{
 .scoot4{
     grid-row: 8;
     grid-column: 2/3;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .p5{
@@ -430,7 +443,7 @@ tr{
 .scoot5{
     grid-row: 8;
     grid-column: 6/8;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .p6{
@@ -441,6 +454,159 @@ tr{
 .scoot6{
     grid-row: 8;
     grid-column: 11/12;
-    width: 200px;
+    width: 300px;
     height: 200px;
+}
+
+
+
+
+
+/*---------------------------------------------------------------this is the start of the reservations page --------------------------*/
+.our-rentals{
+    grid-row: 1;
+    grid-column: 4/10;
+    text-align: center;
+    font-size: xxx-large;
+}
+.the-box {
+    grid-row: 2/3;
+    grid-column: 1/6;
+    height: 970px;
+    background-color: rgba(0, 213, 246, 0.904);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px auto auto auto auto auto 30px;
+}
+.description-1{
+    grid-column: 2/12;
+    grid-row: 2/7;
+    background-color: orange;
+    font-size: x-large;
+}
+
+form{
+    grid-column: 7/12;
+    grid-row: 2;
+}
+
+.padding{
+    padding-left: 9px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 213, 246, 0.904);
+}
+.padding label{
+    margin-top: 29px;
+    color: black;
+}
+.padding input{
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.submit{
+    margin-top: 5px;
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lname{
+    width: 75%;
+}
+#fname{
+    width: 75%;
+}
+#date{
+    width: 75%;
+}
+#email{
+    width: 75%;
+}
+#phone{
+    width: 75%;
+}
+#rdate{
+    width: 75%;
+}
+#cruise{
+    width: 75%;
+}
+#company{
+    width: 75%;
+}
+select{
+    width: 75%;
+    height: 44px;
+}
+fieldset h2{
+    grid-column: 1/13;
+    text-align: center;
+    background-color: orange;
+    margin: 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    padding: 0px;
+}
+.joining{
+    grid-column: 1/13;
+    grid-row: 1/6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: #000 ;
+    height: 300px;
+}
+
+
+/*------------------------------------------------------------this is the contact page-------------------------------*/
+
+.rectangel-1{
+    grid-row: 1;
+    grid-column: 1/6;
+    background-color: rgba(0, 213, 246, 0.904);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-left: 50px;
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    width: 16%;
+}
+.facebook1{
+    text-decoration: none;
+    color: #000;
+}
+.contact{
+    grid-row: 1;
+    grid-column: 8/13;
+    margin-right: 50px;
+}
+#fac{
+    margin-top: 40px;
+}
+.location-1{
+    grid-row: 3;
+    grid-column: 1/13;
+    background: linear-gradient(to bottom, rgba(0, 213, 246, 0.904) 50%, orange 50%);
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    margin-left: 25px;
+    margin-right: 25px;
+    column-gap: 10px;
 }

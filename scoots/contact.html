@@ -38,37 +38,36 @@
         </section>
     </nav>
     <main>
-        <h2 class="services">Our Rental Options</h2>
-        <div class="agreements-box">
-            <div class="services-w-descriptions">
-                <ul>
-                    <li><p>Honda Metro Scooter</p></li>
-                    <li><p>Honda Dio Scooter</p></li>
-                    <li><p>Honda PCX150 Scooter</p></li>
-                    <li><p>Honda Pioneer ATV</p></li>
-                    <li><p>Jeep Wrangler - 4 door with a/c	</p></li>
-                    <li><p>Jeep Wrangler - 2 door</p></li>
-                  </ul>
-            </div>
+        <form class="contact" method="get" action="thankyou.html">
+            <fieldset>
+                <h2>Reservations</h2>
+                <div class="padding">
+                    <label class="fname">First Name* <input type="text" id="fname" name="first name" required></label>
+                    <label class="lname">Last Name* <input type="text" id="lname" name="last name" required></label>
+                    <label class="email">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="please enter a valid email adress" placeholder="someone@gmail.com" required></label>
+                    <label>Comment</label>
+                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    <input type="hidden" name="date" id="date">
+                    <input class="submit" type="submit" value="Contact Us Now!">
+                </div>
+            </fieldset>
+        </form>
+
+
+        <div class="rectangel-1">
+            <h2>Contact us</h2>
+            <img id='fac'class="f1" src="images/facebook.webp" alt="facebook logo">
+            <a id='fac'class="facebook1" href="https://www.facebook.com/">Facebook</a>
+            <img id="fac" class="f1" src="images/InstagramGrey.6ca8518f.webp" alt="instagram logo">
+            <a id="fac" class="facebook1" href="">Instagram</a>
+            <p id="fac">704-993-6532  Or by social media</p>
         </div>
 
-        <table
-        style="border-collapse: collapse; border: 1px solid #000000; margin-left: auto; margin-right: auto;"
-        border="1" cellpadding="5">
-        </table>
-
-        <h3 class="p1">Honda Metro Scooter</h3>
-        <img class="scoot1" src="images/scooter1.webp" alt="scooter pic">
-        <h3 class="p2">Honda Dio Scooter</h3>
-        <img class="scoot2" src="images/scoot2 (2).webp" alt="scooter number 2">
-        <h3 class="p3">Honda PCX150 Scooter</h3>
-        <img class="scoot3" src="images/scoot-3.webp" alt="scooter pic 3">
-        <h3 class="p4">Honda Pioneer ATV</h3>
-        <img class="scoot4" src="images/scoot4.webp" alt="atv picture">
-        <h3 class="p5">Jeep Wrangler - 4 door with a/c</h3>
-        <img class="scoot5" src="images/scoot5.webp" alt="jeep picture">
-        <h3 class="p6">Jeep Wrangler - 2 door</h3>
-        <img class="scoot6" src="images/scoot6.webp" alt="2 door jeep picture">
+        <section class="location-1">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1711827026351!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
     <footer>
         &copy; <span id = "currentYear"></span>
@@ -80,4 +79,3 @@
     <script src="scripts/footer.js"></script>
 </body>
 </html>
-
