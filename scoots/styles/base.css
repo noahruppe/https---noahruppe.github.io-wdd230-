@@ -62,6 +62,10 @@ nav {
     text-decoration: none;
     color: black;
     padding: 14px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links :hover {
