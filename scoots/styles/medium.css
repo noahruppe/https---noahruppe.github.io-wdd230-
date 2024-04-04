@@ -101,9 +101,6 @@
     .links a{
         display: none;
     }
-    .links:hover{
-        background-color: none;
-    }
     .links{
         width: 50%;
         display: flex;
@@ -114,9 +111,6 @@
     nav div{
         display: flex;
         flex-direction: column;
-    }
-    nav div :hover{
-        background-color: none;
     }
     #the-temp-max{
         height: 131px;
