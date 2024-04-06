@@ -94,6 +94,14 @@
     .location{
         height: auto;
     }
+    .island-scooters{
+        grid-column: 1/13;
+        margin-bottom: 15px;
+    }
+    .wheel-scooters{
+        grid-row: 4;
+        grid-column: 1/13;
+    }
 }
 
 @media only screen and (min-width:200px) and (max-width:641px){
@@ -294,5 +302,13 @@
     }
     nav img{
         margin-top: 0px;
+    }
+    .island-scooters{
+        grid-column: 1/13;
+        margin-bottom: 15px;
+    }
+    .wheel-scooters{
+        grid-row: 4;
+        grid-column: 1/13;
     }
 }
